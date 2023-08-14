@@ -1,0 +1,11 @@
+read x 
+y := 10.2
+write y + 5
+z := 2 * 4
+invalid_expression
+write z
+u := x + y
+w := 2 // 3
+w := 5 +
+q := (2 * 4)
+//hello

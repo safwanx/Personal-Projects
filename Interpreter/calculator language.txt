@@ -1,0 +1,33 @@
+if cur.char E ('(', ')', '+', '-', '*', ':'):
+    return the corresponding single-character token
+if cur_char == ':':
+    read the next character
+    if it is '=':
+        return ASSIGN token
+    else:
+        announce an error
+if cur.char == '/':
+    peek at the next character
+    if it is '+' or '/':
+        read additional characters until "*/" or newline is seen, respectively
+        jump back to the top of the code
+    else:
+        return DIV token
+if cur_char == '=':
+    read the next character
+    if it is a digit:
+        read any additional digits
+        return NUMBER token
+    else:
+        announce an error
+if cur_char is a digit:
+    read any additional digits and at most one decimal point
+    return NUMBER token
+if cur_char is a letter:
+    read any additional letters and digits
+    check to see whether the resulting string is "read" or "write"
+    if so, then return the corresponding token (READ or WRITE)
+    else, return ID token
+
+else:
+    announce an error
