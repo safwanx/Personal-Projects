@@ -9,6 +9,6 @@ I'm open to collaboration and learning from others. If you have any feedback, qu
 
 - Email: safwanxnabeel20@gmail.com
 - LinkedIn: [https://www.linkedin.com/in/safwan-nabeel-a499581b9/]
-- Twitter: [@saf4x]
+- Twitter: [https://twitter.com/saf4x]
 
 Thank you for visiting my repository and exploring my projects. Enjoy your stay!
